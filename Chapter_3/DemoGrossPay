@@ -1,0 +1,18 @@
+public class DemoGrossPay {
+
+    public static void main(String[] args) {
+        System.out.println("How many hours did you work?");
+        
+        int h = 40;
+        
+        calcGross(h);
+    }
+
+    public static void calcGross(int w) {
+        double r = 22.75;
+        
+        double g = w * r;
+        
+        System.out.println("Your gross pay is: " + g);
+    }
+}
