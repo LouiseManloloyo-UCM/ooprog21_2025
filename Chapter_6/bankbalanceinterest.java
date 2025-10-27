@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class bankinterest {
+public class bankbalanceinterest {
  public static void main(String args[]){
 Scanner sc = new Scanner(System.in);
 double bal;
@@ -22,3 +22,4 @@ sc.close();
 System.out.println("\n----jgrasp: operation complete.");
     }
 }
+
